@@ -1,4 +1,4 @@
-""" def isPalindrome(s):
+def isPalindrome(s):
     left, right = 0, len(s) - 1
 
     while left < right:
@@ -11,15 +11,8 @@
         left += 1
         right -= 1
 
-    return True """
+    return True 
 
 
 s = "A man, a plan, a canal: Panama"
 print(isPalindrome(s))  # Output: True
-
-
-
-def isPalindrome(s):
-    left, right = 0, len(s) - 1
-
-    while left < right:
